@@ -1,16 +1,15 @@
 function listAll(min, max) {
   var result = '';
-  for (var i = min; min <= max; min++){
-    result += min + ' ';
+  for (var i = min; i <= max; i++){
+    result += i + ' ';
   }
   return result.trim();
 }
 
 function listBetweenDesc(min, max) {
   var result = '';
-  max -= 1;
-  for (var i = max; max > min; max--){
-    result += max + ' ';
+  for (var i = --max; min < i; i--){
+    result += i + ' ';
   } 
   return result.trim();
 }
