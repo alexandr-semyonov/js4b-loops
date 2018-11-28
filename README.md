@@ -15,3 +15,5 @@ git pull upstream master
 
 ## Для тех кто в теме
 how to run browser-sync: `browser-sync start --config bs-config.js
+
+## Test commit 
